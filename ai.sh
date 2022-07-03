@@ -2,11 +2,7 @@
 
 
 
-echo "Hello user."
-
-sleep 2
-
-echo "What is your name."
+echo "Hello user." && echo "What is your name."
 read name
 if [ $name ]; then
         echo "$name looks alright to me"
