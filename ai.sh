@@ -1,7 +1,5 @@
 #! /bin/bash
 
-
-
 echo "Hello user." && echo "What is your name."
 read name
 if [ $name ]; then
